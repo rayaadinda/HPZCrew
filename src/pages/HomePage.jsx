@@ -64,7 +64,14 @@ function HomePage() {
 									animate={{ opacity: 1, y: 0 }}
 									transition={{ duration: 0.6, delay: 0.8 }}
 								>
-									<button className="px-4 py-2 bg-white text-black rounded-full w-fit">
+									<button
+										className="px-4 py-2 bg-white text-black rounded-full w-fit hover:bg-gray-100 transition-colors duration-300"
+										onClick={() => {
+											document.getElementById("apply")?.scrollIntoView({
+												behavior: "smooth",
+											})
+										}}
+									>
 										Join HPZ Crew Now!
 									</button>
 									<div className="flex items-center gap-3">
