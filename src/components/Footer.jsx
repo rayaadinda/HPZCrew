@@ -29,8 +29,8 @@ function Footer() {
 					>
 						<div className="flex items-center gap-3">
 							<img
-								src="/hpz-logo-black.png"
-								alt="TDR Racing"
+								src="/hpz-logo-white.png"
+								alt="HPZ Crew Logo"
 								className="h-10 w-auto"
 							/>
 						</div>

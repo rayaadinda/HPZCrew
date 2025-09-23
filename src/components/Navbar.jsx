@@ -15,11 +15,13 @@ function Navbar() {
 
 	return (
 		<>
-			<div className="navbar bg-transparent absolute top-0 left-0 right-0 z-50 px-4 lg:px-8">
-				<div className="flex-1">
-					<a className="btn btn-ghost text-xl text-white font-medium italic">
-						HPZ CREW
-					</a>
+			<div className="navbar bg-transparent absolute top-0 left-0 right-0 z-50 px-2 sm:px-16 ">
+				<div className="flex-1 px-8">
+					<img
+						src="/hpz-logo-white.png"
+						alt="HPZ Crew Logo"
+						className="h-8 w-auto"
+					/>
 				</div>
 
 				<div className="flex-none hidden lg:flex">
