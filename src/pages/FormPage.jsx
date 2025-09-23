@@ -35,7 +35,7 @@ function FormPage() {
 	})
 
 	const [isSubmitting, setIsSubmitting] = useState(false)
-	const [submitStatus, setSubmitStatus] = useState(null) 
+	const [submitStatus, setSubmitStatus] = useState(null)
 
 	const handleInputChange = (e) => {
 		const { name, value } = e.target
@@ -245,8 +245,8 @@ function FormPage() {
 					transition={{ duration: 0.8, delay: 0.2 }}
 					viewport={{ once: true }}
 				>
-					<div className="inline-flex items-center px-4 py-2 bg-gray-50 border border-gray-200 text-sm mb-6 rounded-full">
-						<span className="w-2 h-2 bg-red-500 rounded-full mr-3"></span>
+					<div className="inline-flex items-center text-black px-4 py-2 bg-gray-50 border border-gray-200 text-sm mb-6 rounded-full">
+						<span className="w-2 h-2 text-black bg-red-500 rounded-full mr-3"></span>
 						TDR Racing Creator Program
 					</div>
 					<motion.h1
@@ -466,7 +466,12 @@ function FormPage() {
 												onChange={(e) =>
 													handleCheckboxChange(category, e.target.checked)
 												}
-												className="checkbox checkbox-sm border-gray-400"
+												className="checkbox checkbox-sm !border-black !border-2 checked:!bg-black checked:!border-black focus:!border-black"
+												style={{
+													'--chkbg': '#000000',
+													'--chkfg': '#ffffff',
+													'--bc': '#000000'
+												}}
 											/>
 											<span className="text-black">{category}</span>
 										</label>

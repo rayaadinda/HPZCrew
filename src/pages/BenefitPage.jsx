@@ -3,7 +3,7 @@ import { motion } from "motion/react"
 
 function BenefitPage() {
 	return (
-		<div id="benefits" className="w-full min-h-screen py-16 lg:py-24">
+		<div id="benefits" className="w-full min-h-screen bg-white py-16 lg:py-24">
 			<motion.div
 				className="container mx-auto px-4 lg:px-8"
 				initial={{ opacity: 0 }}
@@ -19,12 +19,12 @@ function BenefitPage() {
 					transition={{ duration: 0.8, delay: 0.2 }}
 					viewport={{ once: true }}
 				>
-					<div className="inline-flex items-center px-4 py-2 bg-gray-50 border border-gray-200 text-sm mb-6 rounded-full">
+					<div className="inline-flex items-center text-black px-4 py-2 bg-gray-50 border border-gray-200 text-sm mb-6 rounded-full">
 						<span className="w-2 h-2 bg-green-400 rounded-full mr-3"></span>
 						Exclusive TDR Racing Benefits
 					</div>
 					<motion.h1
-						className="text-4xl lg:text-6xl font-semibold text-center leading-tight mb-6 max-w-4xl"
+						className="text-4xl lg:text-6xl font-semibold text-center leading-tight text-black mb-6 max-w-4xl"
 						initial={{ opacity: 0, y: 30 }}
 						whileInView={{ opacity: 1, y: 0 }}
 						transition={{ duration: 0.8, delay: 0.4 }}

@@ -3,7 +3,7 @@ import { motion } from "motion/react"
 
 function ReasonsPage() {
 	return (
-		<div id="reasons" className="w-full min-h-screen">
+		<div id="reasons" className="w-full min-h-screen bg-white">
 			<motion.div
 				className="flex flex-col lg:flex-row w-full p-4 lg:p-8 gap-6 lg:gap-8 mb-24"
 				initial={{ opacity: 0 }}
