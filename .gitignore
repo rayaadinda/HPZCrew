@@ -1,0 +1,79 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Environment variables and credentials
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.example
+
+# Supabase credentials
+supabase/.env
+supabase/config.toml
+supabase/.temp/
+
+# API keys and secrets
+config/secrets.js
+src/config/secrets.js
+src/utils/secrets.js
+**/secrets.*
+**/credentials.*
+**/*-secrets.*
+**/*-credentials.*
+
+# Database files
+*.sqlite
+*.sqlite3
+*.db
+
+# Security files
+ssl/
+certificates/
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+
+# Backup files
+*.backup
+*.bak
+*.sql.backup
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS generated files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.Spotlight-V100
+.Trashes
+._*
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
