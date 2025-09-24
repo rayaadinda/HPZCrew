@@ -7,12 +7,12 @@ function HomePage() {
 		<div id="home" className="w-full min-h-screen">
 			<Navbar />
 			<section
-				className="min-h-screen flex items-center justify-center bg-cover bg-center bg-no-repeat"
+				className="min-h-screen flex items-center justify-center bg-cover bg-center bg-no-repeat pt-16"
 				style={{
 					backgroundImage: `url("https://res.cloudinary.com/dpsofmxsd/image/upload/v1758594074/2840_uxdppn.jpg")`,
 				}}
 			>
-				<div className="container mx-auto sm:px-8 px-4">
+				<div className="container mx-auto px-4 sm:px-8">
 					<div className="flex flex-col lg:grid lg:grid-cols-2 gap-6 lg:gap-8 min-h-[80vh] text-white">
 						<motion.div
 							className="flex items-start lg:items-center justify-start order-1 lg:order-1"
@@ -20,7 +20,7 @@ function HomePage() {
 							animate={{ opacity: 1, x: 0 }}
 							transition={{ duration: 0.8, ease: "easeOut" }}
 						>
-							<div className="">
+							<div className="w-full">
 								<motion.div
 									className="inline-flex items-center px-3 py-1 backdrop-blur-sm text-sm mb-4 rounded-full w-fit"
 									initial={{ opacity: 0, y: 20 }}
